@@ -5,6 +5,7 @@
     --cor-primaria: #5EB3C3;
     --cor-secundaria: #444644;
     --cor-terciaria: #e6e7e8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-header {
@@ -23,8 +24,9 @@
 }
 
 .menu-header ul li a {
-    text-decoration:none;
+    text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 
@@ -51,10 +53,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 2px;
+    padding-bottom: 100px;
 }
 
-.sec-1{
+.awesome {
+    color: #e6e7e8;
+    font-weight: bolder;
+}
+
+.website-template {
+    color: #e6e7e8;
+    font-weight: lighter;
+}
+
+.subtitulo-branco {
+    color: #e6e7e8;
+    font-weight: lighter;
+}
+
+.sec-1 {
     padding: 30px 50px;
     background-color: var(--cor-secundaria);
 
@@ -67,7 +85,7 @@
     color: white;
 }
 
-.sec-2{
+.sec-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +93,7 @@
     padding: 40px;
 }
 
-.card{
+.card {
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -84,29 +102,115 @@
     gap: 15px;
     padding: 10px;
 }
-.card figure{
+
+.research,
+.coordination,
+.test {
+    color: #444644;
+}
+
+.fully-customizable {
+    color: #5EB3C3;
+}
+
+.card figure {
     flex-grow: 1;
 }
 
-.card p{
+.card p {
     text-align: justify;
+    color: #444644;
+    font-weight: lighter;
 
 }
 
-.sec-3{
-    background-color: var(--cor-terciaria);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.sec-3 {
+    background-color:#F4F9F9;
+}
+
+.apresentacao {
+    order: 1;
+    color: #444644;
+    text-align: center;
     padding: 40px;
 }
 
-.row-1, .row-2, .row-3,.row-4 {
-    display:flex;
+.sec-4{
+    background-color: white;
+
+    display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 20px;
+    padding: 100px;
+}
+
+.sec-4 img{
+    height: 30%;
+    justify-content: center;
+
+
+}
+
+.desenvolvedores p {
+    color: #444644;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.sec-5{
+    background-color:#F4F9F9;
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.beautiful-layouts{
+    order: 1;
+    width: 50%;
+    color: #444644;
+    text-align: justify;
+    padding-top: 50px;
+    
+}
+
+.logos{
+    order: 2;
+    width: 30%;
+}
+.logos img{
+    padding: 10px;
+}
+
+.contato{
+    background-color: #444644;
+
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 20px;
+    color: white;
+}
+
+.about-us{
+    width: 30%;
+}
+
+.get-in-touch{
+    width: 30%;
+}
+
+.social-media{
+    width: 30%;
+}
+.contato p{
+    padding-top: 20px;
+    color:gray;
+}
+.contato img {
+   padding-top: 20px;
 }
